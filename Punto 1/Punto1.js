@@ -20,6 +20,7 @@ if (operacion === "+"){
 } else if (operacion === "/"){
     if (num2 === 0){
         console.log("ERROR: No se puede dividir entre cero");
+        resultado = "Indefinido"; //evita que el resultado se imprima y se muestre un error
     } else {
         resultado = num1 / num2;
     }
